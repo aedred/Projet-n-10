@@ -1,8 +1,8 @@
-Rapport n°2 : 10/11/2026 - 11/11/2026
+## Rapport n° 2 — 10/11/2026 au 11/11/2026
 
-1 ) Première impression de la coque du bateau et correction des erreurs
+### 1. Première impression de la coque du bateau et correction des erreurs
 
-Dans cette séance j'ai imprimer, une première version miniaturisé de la coque de notre bateau pour avoir un aperçu de la version finale.
+Durant cette séance, j'ai imprimé une première version miniaturisée de la coque de notre catamaran pour avoir un aperçu concret de la version finale.
 
 <p align="center">
   <img width="400" alt="greenboat_miniature_V1_vue_de_biais" src="https://github.com/user-attachments/assets/124cd39a-8d3c-4367-9a09-19a350731f77" />
@@ -10,60 +10,57 @@ Dans cette séance j'ai imprimer, une première version miniaturisé de la coque
   <em>Figure 1 : Première version miniaturisée de la coque du bateau (vue de biais)</em>
 </p>
 
-Cette première version m'a permis de me rendre compte d'une erreur de logique dans la modélisation de la coque du bateau (catamaran) en effet notre bateau tel que la modélisation à été faite vient fixer grâce à un percage pour y loger une barre qui tiendra le sac à l'arrière du bateau ce qui fait que toute la surface sous le bateau ou les déchets passent pour rentrer dans le sac n'est pas utiliser pour stocker ce qui est un gachis de place, j'ai donc ramener le système de fixation à l'avant 
+Cette première impression m'a permis de mettre en évidence une erreur de conception. Initialement, la modélisation prévoyait un perçage à l'arrière pour fixer la barre maintenant le sac de récupération. Le problème, c'est que cette configuration réduisait la surface utile sous le bateau, là où l'eau et les déchets s'engouffrent, entraînant un gâchis d'espace de stockage. J'ai donc redessiné la pièce en ramenant le système de fixation à l'avant.
 
 <p align="center">
   <img width="400" alt="greenboat_miniature_V1_vue_du_haut" src="https://github.com/user-attachments/assets/6e3b7dec-768b-483b-9c53-5ce02c081768" />
   <br>
-  <em>Figure 2 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
+  <em>Figure 2 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière</em>
 </p>
 
 <p align="center">
   <img width="400" alt="greenboat_modélisation_V2_vue_du_haut" src="https://github.com/user-attachments/assets/eebcb117-f9c8-4c60-9286-ded113363c60" />
   <br>
-  <em>Figure 3 : Deuxième modélisation de la coque du bateau vue du haut avec perçage de fixation à l'avant </em>
+  <em>Figure 3 : Deuxième modélisation de la coque du bateau vue du haut avec perçage de fixation à l'avant</em>
 </p>
 
+---
 
+### 2. Prise en main de la carte Raspberry Pi
 
-2 ) Début de l'utilisation d'une carte Raspberry
+Pour débuter le projet, nous utilisons une carte Raspberry Pi 3 sans module (le bateau final sera équipé d'un modèle Raspberry Pi 5). 
 
-Pour le début du projet nous devons utiliser une carte Raspberry PI 3 sans module (celle qui occupera le bateau sera équipé d'une carte Raspberry PI 5)
-Pour pouvoir prendre en main cette carte, j'ai du télécharger le logiciel de la Raspberry sur une carte SD pour l'utiliser, je l'ai ensuite mise dans la carte.
-J'ai ensuite du trouver démonter l'écran utiliser pour la Raspberry pour le remplacer car il dysfonctionnait, une fois l'écran utilisable j'ai pu configurer la carte pour l'utiliser. 
+Pour configurer la carte, j'ai flashé l'OS Raspberry Pi sur une carte SD avant de l'insérer. J'ai ensuite dû remplacer l'écran officiel qui dysfonctionnait. Une fois l'affichage opérationnel, j'ai pu configurer correctement le système.
 
 <p align="center">
   <img width="400" alt="Raspberry_demarrage" src="https://github.com/user-attachments/assets/d4faae0e-58ee-4554-9df4-30addcf9ea97" />
   <br>
-  <em>Figure 4 : Raspberry, démarrage et initialisation </em>
+  <em>Figure 4 : Démarrage et initialisation de la Raspberry Pi</em>
 </p>
 
+---
 
+### 3. Intégration de la caméra et détection de bouteilles
 
-3 ) Prise en main d'une caméra avec la Raspberry 3 pour la détection de bouteilles
+J'ai voulu piloter la Raspberry Pi 3 à distance depuis mon ordinateur. La connexion Wi-Fi fonctionnait bien, mais VS Code plantait régulièrement, je suis donc passé par l'invite de commande, beaucoup plus stable. Après avoir branché la caméra, la carte l'a reconnue comme une webcam USB standard, ce qui m'a permis d'afficher le flux vidéo sur mon PC via VLC.
 
-J’ai voulu piloter ma Raspberry Pi 3 depuis mon ordinateur. La connexion à distance via le Wifi a bien marché, mais le logiciel VS Code n’arrêtait pas de se bloquer, alors je suis passé par l’invite de commande, plus simple. J’ai branché la caméra, et la carte ne la voyait pas comme une caméra classique, mais l’a bien reconnue comme une caméra USB, et j’ai réussi à voir son image sur mon ordinateur avec VLC.
-
-J’ai ensuite installé OpenCV et testé la détection de visages, qui a bien fonctionné.
-
+J'ai ensuite installé OpenCV et testé avec succès la détection de visages.
 
 <p align="center">
-  <img width="400" alt="montage_caméra_vue_du_haut" src="https://github.com/user-attachments/assets/16dabc13-771e-41c5-b8cd-2e7e76c23d0e" />
+  <img width="400" alt="montage_caméra_vue_du_haut" src="https://github.com/user-attachments/assets/53c3846f-be35-4bb3-9d41-11fc294aff9f" />
   <br>
-  <em>Figure 5 : Montage de la caméra emprunté à la Raspberry PI 3 avec retour vidéo VLC </em>
+  <em>Figure 5 : Montage de la caméra sur la Raspberry Pi 3 avec retour vidéo VLC</em>
 </p>
 
 
-
-Pour détecter une bouteille, j’ai eu plus de mal : un message d’erreur empêchait parfois d’ouvrir la webcam. Une fois tout réparé après un redémarrage, mon test voyait bien la bouteille, mais le programme principal la ratait souvent, sans que je sache si c’était à cause de l’image trop petite ou d’un modèle trop faible.
-
+La détection de bouteilles s'est avérée plus complexe : un message d'erreur bloquait parfois l'accès à la webcam. Après un redémarrage, le test a fini par identifier correctement la bouteille, mais le programme principal peinait à la repérer de manière fiable — probablement à cause de la faible résolution ou d'un modèle trop léger.
 
 <p align="center">
   <img width="400" alt="détection_de_bouteille" src="https://github.com/user-attachments/assets/8577ebed-bc8e-481b-ac75-d2b57d28766e" />
   <br>
-  <em>Figure 6 : Teste de détection de la bouteille </em>
+  <em>Figure 6 : Test de détection de bouteille</em>
 </p>
 
+### Bilan
 
-
-J’en conclus que ma carte Raspberry PI 3 n’était pas assez puissant pour ce travail. Je vais donc passer à un Raspberry Pi 5 avec YOLO, qui devrait mieux reconnaître les bouteilles et le faire plus vite, et je pourrai réutiliser mon code d’affichage des informations (position, distance, couleur) construit à l'aide de l'IA dans un premier temps.
+La carte Raspberry Pi 3 montre ses limites en termes de puissance de calcul pour cette tâche. Je vais donc migrer vers un Raspberry Pi 5 couplé à YOLO pour optimiser la vitesse et la précision de la reconnaissance des bouteilles. Je pourrai ainsi réutiliser le code d'affichage des données (position, distance, couleur) développé avec l'IA.
