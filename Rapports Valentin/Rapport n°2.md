@@ -15,13 +15,13 @@ Cette première version m'a permis de me rendre compte d'une erreur de logique d
 <p align="center">
   <img width="400" alt="greenboat_miniature_V1_vue_du_haut" src="https://github.com/user-attachments/assets/6e3b7dec-768b-483b-9c53-5ce02c081768" />
   <br>
-  <em>Figure 1 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
+  <em>Figure 2 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
 </p>
 
 <p align="center">
   <img width="400" alt="greenboat_modélisation_V2_vue_du_haut" src="https://github.com/user-attachments/assets/eebcb117-f9c8-4c60-9286-ded113363c60" />
   <br>
-  <em>Figure 1 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
+  <em>Figure 3 : Deuxième modélisation de la coque du bateau vue du haut avec perçage de fixation à l'avant </em>
 </p>
 
 
