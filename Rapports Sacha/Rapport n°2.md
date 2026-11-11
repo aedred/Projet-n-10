@@ -23,3 +23,5 @@
   L'autre solution consiste à brancher la carte Raspberry sur le moniteur de batterie (lui-même branché à la batterie LiPo). Pour cela nous devrons cependant faire le pont entre les deux composants avec un convertisseur Buck (Step/Down) pouvant convertir les 12V délivrés par la batterie en 5V pour éviter une nouvelle fois que la carte ne soit endommagée.
 
 # Aperçu du schéma électrique (non fini, stade de développement)
+
+<img width="807" height="687" alt="image" src="https://github.com/user-attachments/assets/a914f7a3-6695-45a1-a219-426973e12206" />
