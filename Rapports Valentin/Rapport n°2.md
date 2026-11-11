@@ -1,6 +1,6 @@
 Rapport n°2 : 10/11/2026 - 11/11/2026
 
-Première impression de la coque du bateau 
+1 ) Première impression de la coque du bateau et correction des erreurs
 
 Dans cette séance j'ai imprimer, une première version miniaturisé de la coque de notre bateau pour avoir un aperçu de la version finale.
 
@@ -24,6 +24,18 @@ Cette première version m'a permis de me rendre compte d'une erreur de logique d
   <em>Figure 3 : Deuxième modélisation de la coque du bateau vue du haut avec perçage de fixation à l'avant </em>
 </p>
 
+
+2 ) Début de l'utilisation d'une carte Raspberry
+
+Pour le début du projet nous devons utiliser une carte Raspberry PI 3 sans module (celle qui occupera le bateau sera équipé d'une carte Raspberry PI 5)
+Pour pouvoir prendre en main cette carte, j'ai du télécharger le logiciel de la Raspberry sur une carte SD pour l'utiliser, je l'ai ensuite mise dans la carte.
+J'ai ensuite du trouver démonter l'écran utiliser pour la Raspberry pour le remplacer car il dysfonctionnait, une fois l'écran utilisable j'ai pu configurer la carte pour l'utiliser. 
+
+<p align="center">
+  <img width="400" alt="Raspberry_demarrage" src="https://github.com/user-attachments/assets/d4faae0e-58ee-4554-9df4-30addcf9ea97" />
+  <br>
+  <em>Figure 4 : Raspberry, démarrage et initialisation </em>
+</p>
 
 
 
