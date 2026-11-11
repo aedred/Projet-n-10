@@ -58,7 +58,8 @@ J’ai ensuite installé OpenCV et testé la détection de visages, qui a bien f
 Pour détecter une bouteille, j’ai eu plus de mal : un message d’erreur empêchait parfois d’ouvrir la webcam. Une fois tout réparé après un redémarrage, mon test voyait bien la bouteille, mais le programme principal la ratait souvent, sans que je sache si c’était à cause de l’image trop petite ou d’un modèle trop faible.
 
 
-<p align="center">alt="détection_de_bouteille" src="https://github.com/user-attachments/assets/8577ebed-bc8e-481b-ac75-d2b57d28766e" />
+<p align="center">
+  <img width="400" alt="détection_de_bouteille" src="https://github.com/user-attachments/assets/8577ebed-bc8e-481b-ac75-d2b57d28766e" />
   <br>
   <em>Figure 6 : Teste de détection de la bouteille </em>
 </p>
