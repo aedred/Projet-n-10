@@ -1,3 +1,4 @@
+<img width="1536" height="2048" alt="greenboat_miniature_V1_vue_du_haut" src="https://github.com/user-attachments/assets/6e3b7dec-768b-483b-9c53-5ce02c081768" />
 Rapport n°2 : 10/11/2026 - 11/11/2026
 
 Première impression de la coque du bateau 
@@ -17,3 +18,7 @@ Cette première version m'a permis de me rendre compte d'une erreur de logique d
   <br>
   <em>Figure 1 : Première version miniaturisée de la coque du bateau vue du haut avec fixation à l'arrière </em>
 </p>
+
+
+![Uploading greenboat_miniature_V1_vue_du_haut.JPEG…]()
+
