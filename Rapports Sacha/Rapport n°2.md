@@ -2,8 +2,8 @@
 
 # Résumé de séance
 
-  J'ai continué de faire le schéma du circuit électronique du robot, nous devrons le joindre au rapport final et cela nous fera gagner du temps quant au branchement des différents composants lorsque nous les auront tous reçus.
-  Je ne l'ai pas encore fini, cependant cela m'a permis de détecter plusieurs erreurs ou oublis critiques.
+  J'ai continué de faire le schéma du circuit électronique du robot, nous devrons le joindre au rapport final et cela nous fera gagner du temps lors du branchement des différents composants une fois tous reçus.
+  Je l'ai fini mais c'est un premier jet et non la version "aux normes": il nous est pour l'instant utile pour y voir plus clair cela m'a permis de détecter plusieurs erreurs ou oublis critiques.
 
 # Conflit d'alimentation des ESC
   
@@ -22,7 +22,7 @@
 
   L'autre solution consiste à brancher la carte Raspberry sur le moniteur de batterie (lui-même branché à la batterie LiPo). Pour cela nous devrons cependant faire le pont entre les deux composants avec un convertisseur Buck (Step/Down) pouvant convertir les 12V délivrés par la batterie en 5V pour éviter une nouvelle fois que la carte ne soit endommagée.
 
-# Aperçu du schéma électrique (non fini, stade de développement)
+# Aperçu du schéma électrique (Premier jet)
 
 <img width="807" height="687" alt="image" src="https://github.com/user-attachments/assets/a914f7a3-6695-45a1-a219-426973e12206" />
 
