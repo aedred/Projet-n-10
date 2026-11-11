@@ -25,3 +25,7 @@
 # Aperçu du schéma électrique (non fini, stade de développement)
 
 <img width="807" height="687" alt="image" src="https://github.com/user-attachments/assets/a914f7a3-6695-45a1-a219-426973e12206" />
+
+# Conclusion du rapport
+
+  Je vérifierai l'existence de possibles alternatives s'il en existe mais je pense que la dernière solution reste la seule viable si l'on souhaite avoir la puissance nécessaire au fonctionnement de notre algorithme d'I.A. et l'absence de problème d'alimentation.
