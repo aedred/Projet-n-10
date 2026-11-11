@@ -18,3 +18,12 @@ Cette première version m'a permis de me rendre compte d'une erreur de logique d
   <em>Figure 1 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
 </p>
 
+<p align="center">
+  <img width="400" alt="greenboat_modélisation_V2_vue_du_haut" src="https://github.com/user-attachments/assets/eebcb117-f9c8-4c60-9286-ded113363c60" />
+  <br>
+  <em>Figure 1 : Première version miniaturisée de la coque du bateau vue du haut avec perçage de fixation à l'arrière </em>
+</p>
+
+
+
+
