@@ -7,3 +7,9 @@
 # Solution apportée au problème d'alimentation de la carte Raspberry
 
   Comme dit précédemment j'ai cherché un convertisseur buck step/down susceptible de convenir pour transformer la tension 12V des batteries en 5V fournis à la carte Raspberry.
+  J'en ai trouvé un sur Amazon, fonctionnant à 5A (soit l'intensité nominale de la carte Raspberry).
+
+<img width="838" height="539" alt="image" src="https://github.com/user-attachments/assets/cd60bd5b-4a47-47bc-9816-3cf1173be967" />
+
+Voici le lien vers le produit:  
+https://www.amazon.fr/Hoembpn-Convertisseur-Alimentation-Transformateur-R%C3%A9gulateur/dp/B0FN6JM61V/ref=sr_1_8?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-8
