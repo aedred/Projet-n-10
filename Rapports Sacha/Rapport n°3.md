@@ -24,6 +24,8 @@ https://www.amazon.fr/Hoembpn-Convertisseur-Alimentation-Transformateur-R%C3%A9g
 
 <p align="center">Circuit électrique définitif</p>   
 
+(La photo étant flous, j'ai joint le fichier à mon dossier)
+
 # Suite de la séance
 
   N'ayant pas d'autres tâches à accomplir dans l'immédiat (nous n'avons pas encore reçu nos cartes Arduino et Raspberry, donc aucun montage possible), j'ai brièvement aidé mon binôme au cours de la mise en route d'un montage visant à tester nos moteurs et composé d'une Arduino, un ESC et le moteur brushless.
