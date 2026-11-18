@@ -32,4 +32,4 @@ https://www.amazon.fr/Hoembpn-Convertisseur-Alimentation-Transformateur-R%C3%A9g
 
 # Conclusion
 
-  Si le matériel n'est pas arrivé d'ici la semaine prochaine je me mettrais en quête d'une Raspberry ou d'une Arduino de génération moins récente que celle demandée afin
+  Si le matériel n'est pas arrivé d'ici la semaine prochaine je me mettrais en quête d'une Raspberry ou d'une Arduino de génération moins récente que celle demandée afin de reproduire une partie du montage.
