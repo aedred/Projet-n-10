@@ -18,3 +18,6 @@ https://www.amazon.fr/Hoembpn-Convertisseur-Alimentation-Transformateur-R%C3%A9g
 
   Par la suite j'ai refait le schéma électrique à l'aide du logiciel QElectrotech afin de posséder une version plus présentable de celui-ci. A noter cependant que j'ai crée des blocs simplifiés des différents composants car seule la carte Arduino existait dans la bibliothèque du logiciel.
   Ainsi les composants que j'ai crée sont des blocs ne comprenant que les bornes et leurs noms (pas de dessins détaillés à la manière des modèles natifs du logiciel).
+
+<img width="655" height="747" alt="image" src="https://github.com/user-attachments/assets/11337d27-1371-4338-bbc7-b8b38c355abb" />
+
