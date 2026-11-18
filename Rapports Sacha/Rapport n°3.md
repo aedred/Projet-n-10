@@ -21,4 +21,4 @@ https://www.amazon.fr/Hoembpn-Convertisseur-Alimentation-Transformateur-R%C3%A9g
 
 <img width="655" height="747" alt="image" src="https://github.com/user-attachments/assets/11337d27-1371-4338-bbc7-b8b38c355abb" />
 
-<p align="center">Circuit électrique définitif_</p>   
+<p align="center"> _Circuit électrique définitif_ </p>   
