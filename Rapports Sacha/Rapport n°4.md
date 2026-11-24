@@ -1,6 +1,6 @@
 ## Rapport n°4
 
-  Jeudi dernier, le 19/11/2026, je suis allé à l'intervention du concours Jeunes Pousses concernant le business plan de notre projet. Il faudra le monter avant le 4 décembre.
+  Jeudi dernier, le 19/11/2026, je suis allé à l'intervention du concours Jeunes Pousses concernant le business plan de notre projet: il nous servira entre autres à mieux définir à qui est destiné le produit, s'il sera sujet à la concurrence et de quel manière nous comptons le financer. Il faudra le monter avant le 4 décembre.
 
 # Nouveau matériel
 
@@ -12,5 +12,6 @@
 
   Après quelques complications, défauts de bibliothèques et de calibrage, nous avons finalement réussi à lancer le code.
 
+<img width="1612" height="1021" alt="639311405832712696" src="https://github.com/user-attachments/assets/6eb7c2a4-137a-4ae9-a2b5-a29f2d4f1b05" />
 
-Retour des données captées par le GPS
+<p align="center">Retour des données captées par le GPS</p>
