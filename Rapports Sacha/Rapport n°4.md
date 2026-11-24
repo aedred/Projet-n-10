@@ -7,5 +7,9 @@
   Nous avons reçu la carte Arduino MEGA ainsi que le GPS, j'ai cherché et trouvé la datasheet de ce dernier ainsi nous l'avons branché et j'ai codé la carte Arduino pour qu'elle renvoie l'orientation, le nombre de satellites perçus par la carte, la longitude, la latitude et la vitesse approximative de la carte.
 
 
+Branchement Arduino et GPS
 
-  Après quelques complications, défauts de bibliothèques et de calibrage,
+  Après quelques complications, défauts de bibliothèques et de calibrage, nous avons finalement réussi à lancer le code.
+
+
+Retour des données captées par le GPS
