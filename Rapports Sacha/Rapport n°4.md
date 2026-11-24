@@ -23,3 +23,6 @@
 <img width="1865" height="1636" alt="20261124_171936v" src="https://github.com/user-attachments/assets/cfd5233f-76e7-4c89-8992-44a9f6ed18c9" />
 
 <p align="center">Montage à deux moteurs</p>
+
+  Nous avons rencontré quelques difficultés pour relier les câbles, plus épais, en provenance de l'alimentation aux connecteurs mais nous finalement réussi à alimenter tout le circuit.
+  On peut cependant noter un tressautement répété d'une dizaine de secondes au niveau de l'un des moteurs lorsque l'on éteint le montage, nous ne savons pas encore à quoi il est dû mais cela ne devrait pas poser de problèmes en définitive.
